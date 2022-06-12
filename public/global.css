@@ -2,6 +2,7 @@ html, body {
 	position: relative;
 	width: 100%;
 	height: 100%;
+	background-color: #fffdd0;
 }
 
 body {
@@ -61,5 +62,77 @@ button:not(:disabled):active {
 button:focus {
 	border-color: #666;
 }
+
+/* MyCSS */
+
+
+input[type=number] {
+	border: 1px solid rgb(180, 169, 169);
+	padding: 12px;
+	border-radius: 4px;
+	margin-bottom: 8px;
+	outline: none;
+	transition: .2s;
+
+}
+
+input[type=number]:hover {
+	border: 1px solid rgb(35, 35, 131);;
+}
+
+
+.btn-limpar{
+    padding: 12px;
+    color: white;
+    background: rgb(37, 127, 187);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-limpar:hover{
+    background: rgb(35, 35, 131);
+}
+
+.btn-limpar:focus{
+    background:red;
+    transition: .4s;
+}
+
+.btn-calc{
+	padding: 12px;
+	color: white;
+	background: rgb(46, 190, 82);
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: .2s;
+	
+	
+}
+
+.btn-calc:hover{
+	background: rgb(6, 54, 13);
+}
+
+.btn-calc:focus{
+	background:rgb(46, 8, 82);
+	transition: .4s;
+}
+
+.result{
+	font-size:50px;
+	text-align: center;
+}
+
+table{
+	margin: auto;
+}
+
+h1{
+	text-align: center;
+}
+
 
 

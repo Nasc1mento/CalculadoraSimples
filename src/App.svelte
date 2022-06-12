@@ -48,11 +48,11 @@
 	</table>	
 	<table>
 		<tr>
-			<td><button on:click={() => calcular("Somar")} class="btn-large">Somar</button></td>
-			<td><button on:click={() => calcular("Subtrair")} class="btn-large">Subtrair</button></td>
-			<td><button on:click={() => calcular("Multiplicar")} class="btn-large">Multiplicar</button></td>
-			<td><button on:click={() => calcular("Dividir")} class="btn-large">Dividir</button></td>
-			<td><button on:click={() => limpar()} class="btn-large red">Limpar</button></td>
+			<td><button on:click={() => calcular("Somar")} class="btn-calc">Somar</button></td>
+			<td><button on:click={() => calcular("Subtrair")} class="btn-calc">Subtrair</button></td>
+			<td><button on:click={() => calcular("Multiplicar")} class="btn-calc">Multiplicar</button></td>
+			<td><button on:click={() => calcular("Dividir")} class="btn-calc">Dividir</button></td>
+			<td><button on:click={() => limpar()} class="btn-limpar">Limpar</button></td>
 
 		</tr>
 	</table>
@@ -63,7 +63,7 @@
 
 
 	{#if resultado!=null}
-		<h2 class="center-align">Resultado:{resultado}</h2>
+		<h2 class="result">Resultado:{resultado}</h2>
 	{/if}
 	
 	
